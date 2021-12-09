@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+  }
+  
+  .slick-arrow {
+    background-color: rgba(0, 0, 0, 0.50) !important;
+    width: 50px !important;
+    height: 50px !important;
+    border: 5px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 2000;
+}
+.slider{
+  margin: 2% auto;
+  width: 50%;
+background-color: white;
+border-radius: 25px;
+}
+footer {
+  
+  background-color: #dad1d1;
+  height: 90px;
+  font-size: 20px;
+  text-align: center;
+ 
+}
