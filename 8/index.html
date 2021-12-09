@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>meaw</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script defer src="form.js"></script>
+  </head>
+  <body class="main">
+    
+    <button class="openBtn">Открыть</button>
+    <div class="hiddenDiv" id="hiddenDiv">
+      <div class="formDiv">
+        <form id="form" action="https://formcarry.com/s/TFnzzIvopN" method="POST">
+          <h2 class="titleOfForm">Форма</h2>
+          <label for="name">
+            Имя:
+            <input name="name" id="name" placeholder="Введите имя" />
+          </label>
+          <br />
+          <label for="email">
+            Email:
+            <input type="email" id="email" name="email" placeholder="Введите email" />
+          </label>
+          <br />
+          <label for="message">
+            Сообщение:<br />
+            <textarea id="message" name="message" placeholder="Ваше сообщение"></textarea>
+          </label>
+          <br />
+          <label for="checkbox">
+            Согласен(-на) на обработку персональных данных.
+            <input type="checkbox" id="checkbox" name="checkbox" />
+          </label>
+          <br />
+          <input type="submit" id="sendBtn" name="sendBtn" value="Отправить" disabled />
+        </form>
+        <button class="closeBtn">Закрыть</button>
+      </div>
+    </div>
+    <div class="hiddenResponse">
+      <div class="resForm">
+        <p class="ans">Успешно</p>
+        <button class="close" id="cl">Закрыть</button>
+      </div>
+    </div>
+  </body>
+</html>
